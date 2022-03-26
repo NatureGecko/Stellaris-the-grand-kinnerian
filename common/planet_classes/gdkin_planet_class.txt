@@ -1,0 +1,63 @@
+
+# Hellish world
+
+pc_gdkin_hellish_world = {
+    entity = "pc_gdkin_hellish_world"
+    entity_scale = @planet_standard_scale
+
+    atmosphere_color 		= hsv { 0.79 0.9 0.27 }
+    atmosphere_intensity 	= 0.085
+    atmosphere_width 		= 2
+
+    min_distance_from_sun = 60
+    max_distance_from_sun = 110
+
+    can_be_moon = no
+
+	show_city = no
+
+    spawn_odds = 0.2
+
+    extra_orbit_size = 0
+    extra_planet_count = 0
+
+    chance_of_ring = 0
+
+    planet_size = { min = 12 max = 25 }
+    moon_size = { min = 6 max = 10 }
+
+    colonizable = no
+}
+
+pc_gdkin_the_grand_gaia_world = {
+    entity = "pc_gdkin_the_grand_gaia_world"
+    entity_scale = @planet_standard_scale
+
+    atmosphere_color 		= hsv { 0.5 0.89 0.93 }
+    atmosphere_intensity 	= 0.1
+    atmosphere_width 		= 1.4
+
+    min_distance_from_sun = 60
+    max_distance_from_sun = 110
+
+    district_set = ""
+
+	show_city = no
+
+    spawn_odds = 0
+
+    extra_orbit_size = 0
+    extra_planet_count = 0
+
+    chance_of_ring = 0
+
+    planet_size = { min = 12 max = 25 }
+    moon_size = { min = 6 max = 10 }
+
+    colonizable = yes
+	ideal = yes
+
+	modifier = {
+		pop_happiness = 0.25
+	}
+}

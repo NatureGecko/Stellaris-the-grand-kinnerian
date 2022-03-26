@@ -1,0 +1,21 @@
+# ##################
+# Weaponry Nightmare Technology
+# ##################
+
+tech_gdkin_nightmare_planet_bombardment = {
+	cost = 200000
+	area = society
+	tier = 4
+	category = { military_theory }
+	weight = 100
+	is_dangerous = yes
+
+	modifier = {
+		pop_amenities_usage_mult = 0.05
+	}
+
+	potential = {
+		has_ascension_perk = ap_become_the_crisis
+	}
+
+}

@@ -1,0 +1,24 @@
+﻿l_english:
+ ####################################
+ # Basic Technology
+ ####################################
+ tech_gdkin_nightmare_warfare: "§RNightmare Warfare Theory"
+ tech_gdkin_nightmare_warfare_desc: "We have reached the point that we hate the other so much that we want them to suffer in an endless nightmare, just like what they did to us at the beginning. After spending a lot of time and resources studying the best way to wipe out our threat."
+ tech_gdkin_nightmare_brain_nuker: "§RNightmare Brain Nuker"
+ tech_gdkin_nightmare_brain_nuker_desc: "Biologica pop, machine, or hive mind should have some kind of intelligent left. We are studying on how to invade their brains and put a nightmare in their head while they are sleeping. This will cause so many mental disorder to all the pop living on that planet."
+ tech_gdkin_nightmare_weaponry: "§RNightmare Weaponry"
+ tech_gdkin_nightmare_weaponry_desc: "A study concerning how to put a nightmare into the victim from a distance, causing them to submit suicide to escape such an unimaginable torturness."
+ tech_gdkin_nightmare_application: "§MNightmare Application"
+ tech_gdkin_nightmare_application_desc: "§RMany empires will hate you.§! \n We are going to apply those dangerous technologies and move on to the next level of §Mnightmare warfare §!which victims will scream and beg for their life. All technologies related to planetary invasion break every rule daclared to make peace in this galaxy. The more you have them, the more other countries hate you."
+
+ ####################################
+ # Weaponry
+ ####################################
+ tech_gdkin_nightmare_planet_bombardment: "§MTorturness Distribution"
+ tech_gdkin_nightmare_planet_bombardment_desc: "§HAllow the §MNIGHTMARE §Hbombardment stance.  §! \n Imprison all innocent souls on that planet by giving them an§M ENDINGLESS NIGHTMARE §!, tearing their innocent soul apart from their body and trap them in their planet that is turned into §R\"HELLISH WORLD\"§! with no way in or out. Their friends and family outside can only hear them screaming painfully but no one will be able to give a hand for them. \n§R We don't kill people, we trap them in an eternal torturness. \n\n§! The only way to end their torturness is to§R crack the planet§!, that is the only way to free their soul."
+
+ ####################################
+ # bombardment stances
+ ####################################
+ bombardment_gdkin_nightmare: "§MNightmare"
+ bombardment_gdkin_nightmare_desc: "§wImprison all innocent souls on that planet by giving them an§M ENDINGLESS NIGHTMARE §!, tearing their innocent soul apart from their body and trap them in their planet that is turned into §R\"HELLISH WORLD\"§w with no way in or out. \n- §MHELLISH§! damage to §YArmies§!\n- §MHELLISH§! damage to §YTiles§!\n- §MHELLISH§! damage to §YPops§! \n Think before use!"

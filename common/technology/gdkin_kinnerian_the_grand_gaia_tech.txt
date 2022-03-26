@@ -1,0 +1,150 @@
+# ##################
+# The Grand Gaia
+# ##################
+
+tech_gdkin_the_grand_gaia_concept = {
+	cost = 120000
+	area = physics
+	tier = 4
+	category = { particles }
+	weight = @tier4weight1
+
+	modifier = {
+		terraform_speed_mult = 0.05
+	}
+
+	potential = {
+		has_ascension_perk = ap_world_shaper
+		has_technology = tech_gdkin_kinnerian_application
+		has_technology = tech_climate_restoration
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_expansion_adopt
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+		}
+	}
+}
+
+tech_gdkin_the_grand_gaia_infrastructure_investment = {
+	cost = 125000
+	area = society
+	tier = 4
+	category = { new_worlds }
+	prerequisites = { "tech_gdkin_the_grand_gaia_concept" }
+	weight = 100
+
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_expansion_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}
+
+tech_gdkin_the_grand_gaia_application = {
+	cost = 160000
+	area = society
+	tier = 4
+	category = { new_worlds }
+	prerequisites = { "tech_gdkin_the_grand_gaia_infrastructure_investment" }
+	weight = 100
+
+	modifier = {
+		terraform_speed_mult = 0.15
+	}
+
+	potential = {
+		has_ascension_perk = ap_world_shaper
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_expansion_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}
+
+tech_gdkin_the_grand_gaia_terraform = {
+	cost = 225000
+	area = society
+	tier = 4
+	category = { new_worlds }
+	prerequisites = { "tech_gdkin_the_grand_gaia_application" }
+	weight = 100
+	is_rare = yes
+
+	modifier = {
+		terraform_speed_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_expansion_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}

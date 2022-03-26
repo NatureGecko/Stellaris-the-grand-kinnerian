@@ -1,0 +1,119 @@
+########################################################
+#
+#  Origin
+#
+########################################################
+
+origin_gdkin_kinnerian_ascendancy = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origin_gdkin_kinnerian_ascendancy.dds"
+	picture = GFX_gdkin_origin_kinnerian_ascendancy
+
+	potential = {
+		always = yes
+	}
+
+	possible = {
+		ethics = {
+			OR = {
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+				value = ethic_materialist
+				value = ethic_fanatic_materialist
+			}
+		}
+		civics = {
+			NOT = {
+				value = civic_fanatic_purifiers
+			}
+		}
+		authority = {
+			NOR = {
+				value = auth_hive_mind
+				value = auth_machine_intelligence
+				value = auth_ancient_machine_intelligence
+				value = auth_imperial
+				value = auth_dictatorial
+			}
+		}
+	}
+
+	modifier = {
+		country_starbase_influence_cost_mult = 1
+		science_ship_survey_speed = 0.2
+	}
+
+	traits = {
+		trait = trait_gdkin_kinnerian_ascendancy
+	}
+
+	random_weight = {
+		base = 0
+		modifier = {
+			factor = 0
+			always = yes
+		}
+	}
+
+	description = "origin_gdkin_kinnerian_ascendancy_effect"
+	flags = { custom_start_screen }
+
+
+	advanced_start = no
+}
+
+origin_gdkin_eternal_depression = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origin_gdkin_eternal_depression.dds"
+	picture = GFX_gdkin_origin_eternal_depression
+	potential = {
+		always = yes
+	}
+
+	possible = {
+		
+		ethics = {
+			OR = {
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+				value = ethic_materialist
+				value = ethic_fanatic_materialist
+			}
+		}
+		civics = {
+			NOT = {
+				value = civic_fanatic_purifiers
+			}
+		}
+		authority = {
+			NOR = {
+				value = auth_hive_mind
+				value = auth_machine_intelligence
+				value = auth_ancient_machine_intelligence
+				value = auth_imperial
+				value = auth_dictatorial
+			}
+		}
+	}
+
+	modifier = {
+		country_starbase_influence_cost_mult = 0.25
+	}
+
+	traits = {
+		trait = trait_gdkin_eternal_depression
+	}
+
+	random_weight = {
+		base = 0
+		modifier = {
+			factor = 0
+			always = yes
+		}
+	}
+
+	description = "origin_gdkin_eternal_depression_effect"
+	flags = { custom_start_screen }
+	
+	advanced_start = no
+}

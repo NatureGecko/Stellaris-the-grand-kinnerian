@@ -1,0 +1,21 @@
+﻿l_english:
+ ####################################
+ # Planet Classes
+ ####################################
+ pc_gdkin_hellish_world: "§RHellish World"
+ pc_gdkin_hellish_world_desc: "This planet was once a place fulfilled with beauty of life. But some kind of castratophy occurred and turn those beauty into horror. A billion of soul are draged from their body and trapped inside the planet, suffering from an endingless torturness. \n\n §REvery people landed on this planet never return. Every machine staying there has an unpredictable fate. Everything that was successfully crossed its atmosphere never send a sign back to anyone waiting outside. We can only hear them scream."
+
+ pc_gdkin_the_grand_gaia_world: "§GThe Grand Gaia"
+ pc_gdkin_the_grand_gaia_world_desc: "The perfect engineered gaia planet with kinnerian technology application that suit for all form of intelligent life, providing a large amount of housing, working, and gardening area. This perfect world is the destination for people fleeing from all over the galaxy to find a peaceful place to stay."
+ pc_gdkin_the_grand_gaia_world_adj: "grand ideal"
+ trait_pc_gdkin_the_grand_gaia_world_preference: "The Grand Gaia preference"
+ trait_pc_gdkin_the_grand_gaia_world_preference_desc: "The Grand Gaia preference"
+ mod_pc_gdkin_the_grand_gaia_world_habitability: "grand ideal"
+
+ ####################################
+ # Districts
+ ####################################
+ 
+ district_gdkin_the_grand_city: "The Grand City"
+ district_gdkin_the_grand_city_desc: "An urbanization area curving through the beauty of a terrain, housing a million of our kind and alian."
+ district_gdkin_the_grand_city_plural: "the grand city"

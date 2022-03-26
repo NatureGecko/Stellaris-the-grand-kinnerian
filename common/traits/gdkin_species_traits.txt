@@ -1,0 +1,78 @@
+########################################################
+#
+#  Species Traits
+#
+########################################################
+
+trait_gdkin_kinnerian_ascendancy = {
+	cost = 0
+	potential_crossbreeding_chance = 0
+	randomized = no
+	initial = no
+	immortal_leaders = yes
+	opposites = {
+		"trait_gdkin_eternal_depression"
+	}
+
+	slave_cost = {
+		energy = 5000
+	}
+
+	species_potential_add = {
+		exists = from
+		from = {
+				has_origin = origin_gdkin_kinnerian_ascendancy
+		}
+	}
+	species_possible_add = {
+		exists = from
+		from = {
+				has_origin = origin_gdkin_eternal_depression
+		}
+	}
+
+	allowed_archetypes = { BIOLOGICAL }
+
+	modifier = {
+		species_leader_exp_gain = 1.0
+		planet_jobs_physics_research_produces_mult = 0.3
+		planet_jobs_society_research_produces_mult = 0.3
+		planet_jobs_engineering_research_produces_mult = 0.3
+		pop_amenities_usage_mult = 0.3
+		army_health = -0.3
+		army_attack_damage_mult = -0.3
+	}
+}
+
+
+trait_gdkin_eternal_depression = {
+	cost = 0
+	potential_crossbreeding_chance = 0
+	randomized = no
+	initial = no
+	immortal_leaders = yes
+
+	species_potential_add = {
+		exists = from
+		from = {
+				has_origin = origin_gdkin_eternal_depression
+		}
+	}
+	species_possible_add = {
+		exists = from
+		from = {
+				has_origin = origin_gdkin_eternal_depression
+		}
+	}
+	
+
+	allowed_archetypes = { BIOLOGICAL }
+
+	modifier = {
+		pop_amenities_usage_mult = -0.95
+		pop_growth_speed = -0.99
+		planet_jobs_worker_produces_mult = 5.0
+		planet_jobs_specialist_produces_mult = 5.0
+		planet_jobs_ruler_produces_mult = 5.0
+	}
+}

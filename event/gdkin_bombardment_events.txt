@@ -1,0 +1,7 @@
+#########################################
+#
+# Turn a planet into the hellish wotld using NIGHTMARE bombardment stance
+#
+#########################################
+
+namespace = gdkin_bombardment_event

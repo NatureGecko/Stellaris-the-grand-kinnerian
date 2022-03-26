@@ -1,0 +1,11 @@
+﻿l_english:
+ ####################################
+ # origins
+ ####################################
+ origin_gdkin_kinnerian_ascendancy: "Kinnerian Ascendancy"
+ origin_gdkin_kinnerian_ascendancy_desc: "This specie is united a really long time ago before launched themself into space. They considered all of their countries as \"The One World\" "
+ origin_gdkin_kinnerian_ascendancy_effect: "Start with a kinnerian trait."
+
+ origin_gdkin_eternal_depression: "Eternal Depression"
+ origin_gdkin_eternal_depression_desc: "This empire had been bulied by another whealthier and stronger empire for a century. And they also burried that empire in their §Shand made black hole§!. \n\n "
+ origin_gdkin_eternal_depression_effect: "Start on the §Mhellish world§! orbits around the black hole, with the remains of devastated stronger empire nearby."

@@ -1,0 +1,78 @@
+# ##################
+# Basic Nightmare Technology
+# In order to unlock the Nightmare technology, an empire must have reached these technology to go further.
+# ##################
+
+tech_gdkin_nightmare_warfare = {
+	cost = 190000
+	area = physics
+	tier = 4
+	category = { particles }
+	weight = 100
+	is_rare = yes
+
+	potential = {
+		has_ascension_perk = ap_become_the_crisis
+	}
+
+	modifier = {
+		army_attack_damage_mult = 0.2
+		army_attack_health_mult = 0.2
+		army_attack_morale_mult = 0.2
+	}
+}
+
+
+tech_gdkin_nightmare_brain_nuker = {
+	cost = 190000
+	area = society
+	tier = 4
+	category = { military_theory }
+	weight = 100
+	is_rare = yes
+
+	potential = {
+		has_ascension_perk = ap_become_the_crisis
+	}
+
+	modifier = {
+		ship_orbital_bombardment_mult = 50 
+		pop_growth_speed = 0.25
+	}
+
+}
+
+tech_gdkin_nightmare_weaponry = {
+	cost = 190000
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 100
+	is_rare = yes
+
+	potential = {
+		has_ascension_perk = ap_become_the_crisis
+	}
+
+	modifier = {
+		ship_fire_rate_mult = 0.2
+		ship_starting_experience_add = 1000
+		ship_hull_damage_mult = 0.1
+	}
+
+}
+
+tech_gdkin_nightmare_application = {
+	cost = 190000
+	area = physics
+	tier = 4
+	category = { particles }
+	weight = 100
+	prerequisites = {"tech_gdkin_nightmare_warfare" "tech_gdkin_nightmare_weaponry" "tech_gdkin_nightmare_brain_nuker" }
+	is_dangerous = yes
+
+	modifier = {
+
+	}
+
+}

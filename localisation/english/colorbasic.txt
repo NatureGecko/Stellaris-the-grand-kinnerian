@@ -1,0 +1,14 @@
+﻿ # Code  	Color
+ # B    	Blue
+ # E    	Teal
+ # G    	Green
+ # H    	Orange
+ # L    	Brown
+ # M    	Purple
+ # P    	Light red
+ # R    	Red
+ # S    	Dark orange
+ # T    	Light grey
+ # W    	White
+ # Y    	Yellow
+ # !    	Default

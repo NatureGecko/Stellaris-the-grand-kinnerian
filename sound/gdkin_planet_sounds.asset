@@ -1,0 +1,57 @@
+category = {
+	name = "Effects"
+	soundeffects = {
+
+		pc_gdkin_hellish_world
+		pc_gdkin_the_grand_gaia_world
+
+	   }
+   }
+
+############ PLANET AMBIENT ############
+
+########################
+# Hellish World
+########################
+sound =
+{
+	name = "pc_gdkin_hellish_world"
+	file = "ambient/pc_gdkin_hellish_world.wav"
+	volume = 0.7
+}
+
+soundeffect = {
+	name = pc_gdkin_hellish_world
+	volume = 0.35
+	loop = no
+	sounds = {
+		sound = pc_gdkin_hellish_world
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.1
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+
+########################
+# The Grand Gaia
+########################
+sound =
+{
+	name = "pc_gdkin_the_grand_gaia_world"
+	file = "ambient/pc_gdkin_the_grand_gaia_world.wav"
+	volume = 0.7
+}
+
+soundeffect = {
+	name = pc_gdkin_the_grand_gaia_world
+	volume = 0.35
+	loop = no
+	sounds = {
+		sound = pc_gdkin_the_grand_gaia_world
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.1
+	max_audible = 1
+	max_audible_behaviour = fail	
+}

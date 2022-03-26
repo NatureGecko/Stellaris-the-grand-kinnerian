@@ -1,0 +1,90 @@
+# ## Kinnerian Basic technologies
+
+# ##################
+# Basic Kinnerian Technology
+# In order to unlock the kinnerian ascendency technology, an empire must have reached these technology to go further.
+# ##################
+
+tech_gdkin_kinnerian_computing = {
+	cost = 100000
+	area = physics
+	tier = 4
+	category = { computing }
+	weight = 20
+	prerequisites = { "tech_physics_3" "tech_starbase_4" }
+	is_rare = yes
+
+	potential = {
+		has_ascension_perk = ap_technological_ascendancy
+	}
+
+	modifier = {
+		country_physics_research_produces_mult = 0.4
+		country_society_research_produces_mult = 0.4
+		country_engineering_research_produces_mult = 0.4
+		planet_researchers_upkeep_mult = -0.25
+		country_influence_produces_add = 2
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 3
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 5
+			has_ethic = ethic_fanatic_materialist
+		}
+	}
+
+}
+
+tech_gdkin_kinnerian_living_and_thinking = {
+	cost = 500000
+	area = society
+	tier = 4
+	weight = 100
+	category = { statecraft }
+	prerequisites = { "tech_gdkin_kinnerian_computing" }
+	is_rare = yes
+
+	modifier = {
+		planet_pops_consumer_goods_upkeep_mult = -0.12
+		planet_stability_add = 15
+		planet_amenities_add = 50
+		pop_growth_speed = 0.15
+		leader_age = 50
+	}
+}
+
+tech_gdkin_kinnerian_engineering = {
+	cost = 100000
+	area = engineering
+	tier = 4
+	weight = 100
+	category = { voidcraft }
+	prerequisites = { "tech_gdkin_kinnerian_living_and_thinking" }
+	is_rare = yes
+
+	modifier = {
+		megastructure_build_speed_mult = 0.5
+		country_megastructure_build_cap_add = 1
+		stations_produces_mult = 0.3
+		planet_jobs_produces_mult = 0.3
+	}
+}
+
+tech_gdkin_kinnerian_application = {
+	cost = 150000
+	area = engineering
+	tier = 4
+	weight = 100
+	category = { materials }
+	prerequisites = { "tech_gdkin_kinnerian_engineering" }
+	is_rare = yes
+
+	modifier = {
+		all_technology_research_speed = 0.1
+	}
+}
+
