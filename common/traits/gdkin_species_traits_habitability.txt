@@ -10,6 +10,20 @@ trait_pc_gdkin_the_grand_gaia_world_preference = {
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
 	initial = no
+
+	species_potential_add = {
+		exists = from
+		from = {
+				has_origin = origin_gdkin_kinnerian_ascendancy
+		}
+	}
+	species_possible_add = {
+		exists = from
+		from = {
+				has_origin = origin_gdkin_eternal_depression
+		}
+	}
+
 	modifier = {
 		pc_gdkin_the_grand_gaia_world_habitability = 1.0
 

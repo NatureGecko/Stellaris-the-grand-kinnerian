@@ -4,6 +4,7 @@
 pc_gdkin_hellish_world = {
     entity = "pc_gdkin_hellish_world"
     entity_scale = @planet_standard_scale
+    icon = GFX_planet_type_hellish_world
 
     atmosphere_color 		= hsv { 0.79 0.9 0.27 }
     atmosphere_intensity 	= 0.085
@@ -14,9 +15,11 @@ pc_gdkin_hellish_world = {
 
     can_be_moon = no
 
+	district_set = ""
+
 	show_city = no
 
-    spawn_odds = 0.2
+    spawn_odds = 0.0
 
     extra_orbit_size = 0
     extra_planet_count = 0
@@ -26,12 +29,21 @@ pc_gdkin_hellish_world = {
     planet_size = { min = 12 max = 25 }
     moon_size = { min = 6 max = 10 }
 
-    colonizable = no
+    modifier = {
+        IF = {
+            limit = { NOT = { has_origin = origin_gdkin_eternal_depression }}
+            pop_growth_speed = -10
+            pop_happiness = -10
+        }
+    }
+    is_artificial_planet = yes
+    colonizable = yes
 }
 
 pc_gdkin_the_grand_gaia_world = {
     entity = "pc_gdkin_the_grand_gaia_world"
     entity_scale = @planet_standard_scale
+    icon = GFX_planet_type_the_grand_gaia_world
 
     atmosphere_color 		= hsv { 0.5 0.89 0.93 }
     atmosphere_intensity 	= 0.1
@@ -44,7 +56,7 @@ pc_gdkin_the_grand_gaia_world = {
 
 	show_city = no
 
-    spawn_odds = 0
+    spawn_odds = 0.0
 
     extra_orbit_size = 0
     extra_planet_count = 0
@@ -60,4 +72,6 @@ pc_gdkin_the_grand_gaia_world = {
 	modifier = {
 		pop_happiness = 0.25
 	}
+
+    is_artificial_planet = yes
 }

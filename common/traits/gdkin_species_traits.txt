@@ -69,10 +69,9 @@ trait_gdkin_eternal_depression = {
 	allowed_archetypes = { BIOLOGICAL }
 
 	modifier = {
-		pop_amenities_usage_mult = -0.95
-		pop_growth_speed = -0.99
-		planet_jobs_worker_produces_mult = 5.0
-		planet_jobs_specialist_produces_mult = 5.0
-		planet_jobs_ruler_produces_mult = 5.0
+		pop_amenities_usage_mult = 1.5
+		pop_growth_speed = -1.0
+		pop_resettlement_cost_mult = -1.0
+		army_health = 1.0
 	}
 }

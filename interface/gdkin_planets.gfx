@@ -1,0 +1,13 @@
+spriteTypes = {	
+
+	spriteType = { 
+		name = "GFX_planet_type_hellish_world"
+		alwaystransparent = yes
+		texturefile = "gfx/interface/icons/planet_icons/planet_type__hellish_world.dds"
+	}
+	spriteType = { 
+		name = "GFX_planet_type_the_grand_gaia_world"
+		alwaystransparent = yes
+		texturefile = "gfx/interface/icons/planet_icons/planet_type_the_grand_gaia_world.dds"
+	}
+}

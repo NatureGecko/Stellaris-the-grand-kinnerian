@@ -73,20 +73,13 @@ origin_gdkin_eternal_depression = {
 	possible = {
 		
 		ethics = {
-			OR = {
-				value = ethic_egalitarian
-				value = ethic_fanatic_egalitarian
-				value = ethic_materialist
-				value = ethic_fanatic_materialist
-			}
+			value = ethic_fanatic_xenophobe
 		}
 		civics = {
-			NOT = {
-				value = civic_fanatic_purifiers
-			}
+			value = civic_fanatic_purifiers
 		}
 		authority = {
-			NOR = {
+			OR = {
 				value = auth_hive_mind
 				value = auth_machine_intelligence
 				value = auth_ancient_machine_intelligence
