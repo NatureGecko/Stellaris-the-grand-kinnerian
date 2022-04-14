@@ -12,4 +12,4 @@ tags={
 }
 name="The Grand Kinnerian"
 supported_version="3.3.*"
-remote_file_id="2784778725"
+remote_file_id="2789888532"

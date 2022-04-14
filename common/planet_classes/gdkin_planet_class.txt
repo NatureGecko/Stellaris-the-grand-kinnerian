@@ -28,14 +28,6 @@ pc_gdkin_hellish_world = {
 
     planet_size = { min = 12 max = 25 }
     moon_size = { min = 6 max = 10 }
-
-    modifier = {
-        IF = {
-            limit = { NOT = { has_origin = origin_gdkin_eternal_depression }}
-            pop_growth_speed = -10
-            pop_happiness = -10
-        }
-    }
     is_artificial_planet = yes
     colonizable = yes
 }
@@ -56,7 +48,7 @@ pc_gdkin_the_grand_gaia_world = {
 
 	show_city = no
 
-    spawn_odds = 0.0
+    spawn_odds = 0.1
 
     extra_orbit_size = 0
     extra_planet_count = 0
@@ -66,7 +58,7 @@ pc_gdkin_the_grand_gaia_world = {
     planet_size = { min = 12 max = 25 }
     moon_size = { min = 6 max = 10 }
 
-    colonizable = yes
+    colonizable = no
 	ideal = yes
 
 	modifier = {
